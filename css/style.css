@@ -1,3 +1,9 @@
+@font-face {
+font-family: Joseph;
+src: url(../fonts/JosefinSlab-Regular.ttf);
+}
+
+
 #trans{
 	background:transparent;
 	background-image:none;
@@ -26,7 +32,8 @@
 	outline: none;
 }
 .navbar-header a {
-	font-family: 'Josefin Slab', sans-serif;
+	font-family: 'Joseph', sans-serif;
+	/**/
 	/*vertical-align: middle;*/
 }
 #logo{
@@ -53,7 +60,9 @@
 .navbar-default .navbar-nav > li > a {
     color: #ffffff;
     font-weight: bold;
-    font-family: 'Josefin Slab', sans-serif;
+    /*font-family: 'Josefin Slab', sans-serif;*/
+    /*font-family: 'Verdana', sans-serif;*/
+    font-family: 'Joseph', sans-serif;
 
 
 }
@@ -105,10 +114,16 @@ body >h1 {
 
 }
 #section2 {height: 100vh; overflow:auto; }
-#section3 {padding-top:50px;height: 100vh; font-family: 'Josefin Slab', sans-serif; overflow:auto;}
+#section3 {
+	padding-top:50px;
+	height: 100vh; /*font-family: 'Josefin Slab', sans-serif;*/
+	font-family: 'Joseph', sans-serif;
+	overflow:auto;}
 
 #animate {
-	font-family: 'Josefin Slab', sans-serif;
+	/*font-family: 'Josefin Slab', sans-serif;*/
+	font-family: 'Joseph', sans-serif;
+	/*font-family: Verdana,  sans-serif;*/
 	padding: 8em 2em;
 	font-size: 18px;
 	/*position: bottom;*/
@@ -142,7 +157,7 @@ body >h1 {
 /*Products section*/
 
 
-.team-sec{float: left;width: 100%; font-family: 'Josefin Slab', sans-serif;}
+.team-sec{float: left;width: 100%; font-family: 'Joseph', sans-serif;}
 .team .photo {width: 230px; height: 230px; max-height: 100%; max-width: 100%; display: inline-block; overflow: hidden; position: relative; }
 .photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 250px; width: 246px; background: #fff; }
 .col-item{position: relative;}
