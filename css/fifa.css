@@ -1,0 +1,189 @@
+#pie{
+    /* float:right; */
+    height: 410px;
+    width: 700px;
+}
+#container{
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+}
+.arc text {
+    font: 8.75px sans-serif;
+    text-anchor: middle;
+    fill: white;
+  }
+.arc path {
+    stroke: #fff;
+  }
+
+.arc2 text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+    color: white;
+  }
+
+.arc2 path {
+    stroke: #fff;
+  }
+
+
+#chart{
+    width: 440px;
+    height:370px;
+    display: inline-block;
+}
+.svgRect{
+
+    fill:steelblue;
+}
+#names{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#names_sub{
+  overflow-y: scroll; height:300px;
+  width: 90%;
+}
+
+caption{
+  font-size: 17px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: white;
+  background: lightblue;
+}
+/*td, th {
+  padding: 1px 4px;
+}*/
+
+#table-names {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+    /* overflow-y: scroll; max-height:200px; */
+    /* width: 100%; */
+}
+
+#table-names td, #table-names th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table-names tr:nth-child(even){background-color: #f2f2f2;}
+
+#table-names tr:hover {background-color: #ddd;}
+
+#table-names th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    background-color: lightblue;
+    color: white;
+}
+.clear{
+    clear:both;
+}
+
+#target {
+  margin: 40px 0;
+}
+.chartt {
+  margin-bottom: 40px;
+}
+.star-title {
+  font-size: 14px;
+}
+.star-label {
+  font-size: 11px;
+}
+.star-origin {
+  fill: #333;
+}
+.star-axis {
+  stroke: #ccc;
+  stroke-width: 2px;
+  stroke-dasharray: 4 5;
+}
+.star-path {
+  stroke: #444;
+  stroke-width: 2px;
+  fill: #709CB1;
+  fill-opacity: 0.6;
+}
+
+.names {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+/* Tooltip CSS */
+.d3-tip {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family:"avenir next", Arial, sans-serif;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #FFA500;
+  border-radius: 1px;
+  pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 8px;
+  width: 100%;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  pointer-events: none;
+
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+  content: "\25BC";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+  content: "\25C0";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+  content: "\25B2";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+  content: "\25B6";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%;
+}
+
+/*
+text{
+  pointer-events:none;
+}
+*/
+
+.details{
+  color: white;
+}
